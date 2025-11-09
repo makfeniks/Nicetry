@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500">
+  <!-- Title -->
+  <text x="600" y="30" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Сроки перехода в Принимающее подразделение
+  </text>
+
+  <!-- Timeline axis -->
+  <line x1="100" y1="250" x2="1100" y2="250" stroke="#333" stroke-width="3"/>
+
+  <!-- 0 days marker -->
+  <line x1="100" y1="240" x2="100" y2="260" stroke="#333" stroke-width="3"/>
+  <text x="100" y="275" font-size="12" text-anchor="middle" fill="#333">0 дней</text>
+  <text x="100" y="295" font-size="11" font-weight="bold" text-anchor="middle" fill="#388e3c">СТАРТ</text>
+
+  <!-- 45 days marker -->
+  <line x1="550" y1="240" x2="550" y2="260" stroke="#333" stroke-width="3"/>
+  <text x="550" y="275" font-size="12" text-anchor="middle" fill="#333">45 дней</text>
+
+  <!-- 60 days marker -->
+  <line x1="700" y1="240" x2="700" y2="260" stroke="#333" stroke-width="3"/>
+  <text x="700" y="275" font-size="12" text-anchor="middle" fill="#333">60 дней</text>
+
+  <!-- 90 days marker -->
+  <line x1="1000" y1="240" x2="1000" y2="260" stroke="#333" stroke-width="3"/>
+  <text x="1000" y="275" font-size="12" text-anchor="middle" fill="#333">90 дней</text>
+  <text x="1000" y="295" font-size="11" font-weight="bold" text-anchor="middle" fill="#d32f2f">МАКС</text>
+
+  <!-- Category 1: Regular employees (45 days) -->
+  <rect x="100" y="90" width="450" height="60" rx="8" fill="#4caf50" opacity="0.8"/>
+  <text x="325" y="115" font-size="14" font-weight="bold" text-anchor="middle" fill="white">ОСТАЛЬНЫЕ СОТРУДНИКИ КОМПАНИИ</text>
+  <text x="325" y="135" font-size="12" text-anchor="middle" fill="white">Максимум: 45 дней (полтора месяца)</text>
+
+  <!-- Category 2: Development department (60 days) -->
+  <rect x="100" y="160" width="600" height="60" rx="8" fill="#2196f3" opacity="0.8"/>
+  <text x="400" y="185" font-size="14" font-weight="bold" text-anchor="middle" fill="white">СОТРУДНИКИ ДЕПАРТАМЕНТА РАЗРАБОТКИ</text>
+  <text x="400" y="205" font-size="12" text-anchor="middle" fill="white">Максимум: 60 дней (два месяца)</text>
+
+  <!-- Category 3: Managers and key employees (90 days) -->
+  <rect x="100" y="310" width="900" height="80" rx="8" fill="#ff9800" opacity="0.8"/>
+  <text x="550" y="340" font-size="14" font-weight="bold" text-anchor="middle" fill="white">РУКОВОДИТЕЛИ И КЛЮЧЕВЫЕ СОТРУДНИКИ</text>
+  <text x="550" y="360" font-size="12" text-anchor="middle" fill="white">всех подразделений, в т.ч. персонально участвующие в крупных проектах</text>
+  <text x="550" y="380" font-size="12" text-anchor="middle" fill="white">Максимум: 90 дней (три месяца) - согласовывается с HRD и топ-менеджментом</text>
+
+  <!-- Info box -->
+  <rect x="50" y="410" width="1100" height="70" rx="10" fill="#e3f2fd" stroke="#0288d1" stroke-width="2"/>
+  <text x="600" y="435" font-size="13" font-weight="bold" text-anchor="middle" fill="#0288d1">ВАЖНО!</text>
+  <text x="600" y="455" font-size="12" text-anchor="middle" fill="#333">Срок перехода определяется коллегиально руководителем Подразделения-донора,</text>
+  <text x="600" y="472" font-size="12" text-anchor="middle" fill="#333">сотрудником и руководителем Принимающего подразделения с учетом интересов Компании</text>
+
+  <!-- Legend -->
+  <rect x="950" y="50" width="200" height="100" rx="8" fill="#f5f5f5" stroke="#999" stroke-width="1"/>
+  <text x="1050" y="70" font-size="12" font-weight="bold" text-anchor="middle" fill="#333">Обозначения:</text>
+
+  <rect x="960" y="80" width="20" height="12" fill="#4caf50" opacity="0.8"/>
+  <text x="990" y="90" font-size="10" fill="#333">Полтора месяца</text>
+
+  <rect x="960" y="100" width="20" height="12" fill="#2196f3" opacity="0.8"/>
+  <text x="990" y="110" font-size="10" fill="#333">Два месяца</text>
+
+  <rect x="960" y="120" width="20" height="12" fill="#ff9800" opacity="0.8"/>
+  <text x="990" y="130" font-size="10" fill="#333">Три месяца</text>
+</svg>
